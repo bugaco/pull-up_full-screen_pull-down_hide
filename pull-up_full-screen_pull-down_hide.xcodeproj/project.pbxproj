@@ -13,6 +13,7 @@
 		85C199B81FE75562001B3798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C199B61FE75562001B3798 /* Main.storyboard */; };
 		85C199BA1FE75562001B3798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C199B91FE75562001B3798 /* Assets.xcassets */; };
 		85C199BD1FE75562001B3798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C199BB1FE75562001B3798 /* LaunchScreen.storyboard */; };
+		85C199C61FE75B6E001B3798 /* 效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = 85C199C51FE75B6E001B3798 /* 效果图.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		85C199B91FE75562001B3798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C199BC1FE75562001B3798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85C199BE1FE75562001B3798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C199C51FE75B6E001B3798 /* 效果图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "效果图.gif"; sourceTree = "<group>"; };
 		A9E6097A2B72E2BA40030B55 /* Pods-pull-up_full-screen_pull-down_hide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pull-up_full-screen_pull-down_hide.release.xcconfig"; path = "Pods/Target Support Files/Pods-pull-up_full-screen_pull-down_hide/Pods-pull-up_full-screen_pull-down_hide.release.xcconfig"; sourceTree = "<group>"; };
 		F772AF3E04B5948D54CA43E5 /* Pods_pull_up_full_screen_pull_down_hide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pull_up_full_screen_pull_down_hide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 		85C199B11FE75562001B3798 /* pull-up_full-screen_pull-down_hide */ = {
 			isa = PBXGroup;
 			children = (
+				85C199C41FE75B5B001B3798 /* res */,
 				85C199B21FE75562001B3798 /* AppDelegate.swift */,
 				85C199B41FE75562001B3798 /* ViewController.swift */,
 				85C199B61FE75562001B3798 /* Main.storyboard */,
@@ -86,6 +89,14 @@
 				85C199BE1FE75562001B3798 /* Info.plist */,
 			);
 			path = "pull-up_full-screen_pull-down_hide";
+			sourceTree = "<group>";
+		};
+		85C199C41FE75B5B001B3798 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				85C199C51FE75B6E001B3798 /* 效果图.gif */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			files = (
 				85C199BD1FE75562001B3798 /* LaunchScreen.storyboard in Resources */,
 				85C199BA1FE75562001B3798 /* Assets.xcassets in Resources */,
+				85C199C61FE75B6E001B3798 /* 效果图.gif in Resources */,
 				85C199B81FE75562001B3798 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
