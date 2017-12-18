@@ -1,0 +1,6 @@
+framework module Pods_pull_up_full_screen_pull_down_hide {
+  umbrella header "Pods-pull-up_full-screen_pull-down_hide-umbrella.h"
+
+  export *
+  module * { export * }
+}
